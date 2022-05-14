@@ -156,7 +156,7 @@ if __name__ == "__main__":
     history = model.fit(X_train, y_train, validation_data=(X_validation, y_validation), batch_size=32, epochs=30)
 
     # Export model file for later use
-    model.save("ModelV2.h5")
+    model.save("A_Model.h5")
 
     # plot accuracy/error for training and validation
     plot_history(history)
