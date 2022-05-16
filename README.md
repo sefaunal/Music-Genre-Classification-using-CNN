@@ -1,5 +1,5 @@
 # Music-Genre-Classification-using-CNN
-Music Genre Classification using CNN with Python
+Music Genre Classification using CNN with Python.
 In this project we tried to classify music genres using CNN.
 
 #How To Use:
