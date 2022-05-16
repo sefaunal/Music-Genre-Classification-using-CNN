@@ -10,9 +10,11 @@ In this project we tried to classify music genres using CNN.
 Our program cannot process the .mp3 files directly since librosa causing errors thus using ffmpeg we convert .mp3 file to .wav and then make the prediction. (https://ffmpeg.org/download.html#build-windows Required files can be also found here but its already been included now)
 
 When u re done the folder should look like this (Again tho DatasetV2.json is not a neccesary file since the model have already been included here.):
+
 ![image](https://user-images.githubusercontent.com/83312431/168431166-f7beb632-bcc5-49e4-933a-b105aa21c0f5.png)
 
 We use Pycharm as our IDE and here is an example output from our program:
+
 ![image](https://user-images.githubusercontent.com/83312431/168431383-d6b4a1fd-8b57-4859-8ef6-f5aa6d727bc2.png)
 
 Here is the output showing our model's accuracy value:
