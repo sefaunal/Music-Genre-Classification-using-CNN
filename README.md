@@ -16,5 +16,6 @@ We use Pycharm as our IDE and here is an example output from our program:
 ![image](https://user-images.githubusercontent.com/83312431/168431383-d6b4a1fd-8b57-4859-8ef6-f5aa6d727bc2.png)
 
 Here is the output showing our model's accuracy value:
+
 ![Ekran görüntüsü 2022-05-16 234733](https://user-images.githubusercontent.com/83312431/168686538-89d61312-5f7d-42d6-8b0e-339414e4bfba.png)
 
