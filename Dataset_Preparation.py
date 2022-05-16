@@ -61,10 +61,6 @@ def save_mfcc(dataset_path, json_path, num_mfcc=13, n_fft=2048, hop_length=512, 
                                                 hop_length=hop_length)
                     mfcc = mfcc.T
 
-                    chroma_stft = librosa.feature.chroma_stft(signal, sr=SAMPLE_RATE)
-                    rolloff = librosa.feature.spectral_rolloff(signal, sr=SAMPLE_RATE)
-                    zcr = librosa.feature.zero_crossing_rate(signal)
-
                     # store only mfcc feature with expected number of vectors
                     if len(mfcc) == num_mfcc_vectors_per_segment:
                         data["mfcc"].append(mfcc.tolist())
