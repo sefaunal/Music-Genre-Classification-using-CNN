@@ -1,6 +1,7 @@
 # Music-Genre-Classification-using-CNN
 Music Genre Classification using CNN with Python
 In this project we tried to classify music genres using CNN.
+
 #How To Use:
 1. U need to run Dataset_Preparation.py to extract the neccesary values from the music files. But in order to do that u first need to download the GTZAN Dataset (if u download it from kaggle be careful however because iirc jazz0054 was broken thus causing error at this stage so u might need to remove it first if u get an error.)
 2. After u get your Json file from Dataset_Preparation.py u can then run CNN_Network.py to train the network and save the output model.
