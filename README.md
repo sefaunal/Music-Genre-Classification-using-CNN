@@ -10,8 +10,6 @@ GTZAN dataset and edit DATASET_PATH variable to make it match your folder's path
 ----------
 
 #### Screenshots
-We use Pycharm as our IDE and here is an example output from our program:
-
 Accuracy value of the network:
 
 ![168686538-89d61312-5f7d-42d6-8b0e-339414e4bfba](https://user-images.githubusercontent.com/83312431/170832239-12afd166-a860-4031-9fe5-95d8851843d9.png)
