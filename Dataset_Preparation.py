@@ -3,7 +3,7 @@ import os
 import math
 import librosa
 
-DATASET_PATH = "C:/Users/unals/Desktop/genres_original/"
+DATASET_PATH = "YOUR DATASET PATH"
 JSON_PATH = "DatasetV2.json"
 SAMPLE_RATE = 22050
 TRACK_DURATION = 30  # measured in seconds
