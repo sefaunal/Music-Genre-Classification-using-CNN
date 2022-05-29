@@ -5,6 +5,7 @@ from sklearn.model_selection import KFold
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 import tensorflow.keras as keras
+import itertools
 
 DATA_PATH = "DatasetV2.json"
 
@@ -137,7 +138,7 @@ def plot_confusion_matrix(cm, target_names, title='Confusion matrix', cmap=None,
     plt.ylim(len(target_names) - 0.5, -0.5)
     plt.ylabel('True labels')
     plt.xlabel('Predicted labels')
-    plt.savefig(title + '.png', dpi=500, bbox_inches='tight')
+    # plt.savefig(title + '.png', dpi=500, bbox_inches='tight')
     plt.show()
 
 
